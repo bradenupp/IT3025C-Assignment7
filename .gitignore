@@ -1,0 +1,23 @@
+# --- Secrets (never commit) ---
+.env
+.env.*
+*.env
+!.env.example
+
+# --- Python environment / caches ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Files the agent generates while you test ---
+score.json
+missed_questions.txt
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.cursor/
